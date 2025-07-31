@@ -1,5 +1,14 @@
 # WordMatch 📱
 
+
+[![Android](https://img.shields.io/badge/Platform-Android-green.svg)](https://developer.android.com/)
+[![Kotlin](https://img.shields.io/badge/Language-Kotlin-purple.svg)](https://kotlinlang.org/)
+[![Jetpack Compose](https://img.shields.io/badge/UI-Jetpack%20Compose-blue.svg)](https://developer.android.com/jetpack/compose)
+[![Material Design 3](https://img.shields.io/badge/Design-Material%203-orange.svg)](https://m3.material.io/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+> Современное Android-приложение для изучения английских слов с интуитивным Tinder-подобным интерфейсом
+
 ## 👨‍💻 Автор
 
 **Elmigerum, me**
@@ -10,13 +19,6 @@
 <img width="729" height="778" alt="image" src="https://github.com/user-attachments/assets/c3fa987a-6f72-497f-ab17-8e504baff53a" />
 
 
-[![Android](https://img.shields.io/badge/Platform-Android-green.svg)](https://developer.android.com/)
-[![Kotlin](https://img.shields.io/badge/Language-Kotlin-purple.svg)](https://kotlinlang.org/)
-[![Jetpack Compose](https://img.shields.io/badge/UI-Jetpack%20Compose-blue.svg)](https://developer.android.com/jetpack/compose)
-[![Material Design 3](https://img.shields.io/badge/Design-Material%203-orange.svg)](https://m3.material.io/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-> Современное Android-приложение для изучения английских слов с интуитивным Tinder-подобным интерфейсом
 
 ## 🎯 Описание
 
@@ -188,39 +190,6 @@ android {
         kotlinCompilerExtensionVersion = "1.5.8"
     }
 }
-```
-
-## 🎨 Дизайн
-
-### Цветовая палитра
-- **Primary**: `#4CAF50` (Material Green)
-- **Secondary**: `#81C784` (Light Green)
-- **Background**: `#F8F9FA` (Off White)
-- **Surface**: `#FFFFFF` (Pure White)
-- **On Primary**: `#FFFFFF` (White text)
-
-### UI/UX принципы
-- **Минималистичность**: Чистый и понятный интерфейс
-- **Интуитивность**: Знакомые паттерны взаимодействия
-- **Отзывчивость**: Плавные анимации и переходы
-- **Доступность**: Высокий контраст и читаемость
-
-## 📊 Структура данных
-
-```kotlin
-data class Word(
-    val id: Int,
-    val english: String,      // Английское слово
-    val russian: String,      // Перевод на русский
-    val example: String       // Пример использования
-)
-
-// Пример данных
-val sampleWords = listOf(
-    Word(1, "Beautiful", "Красивый", "She is very beautiful."),
-    Word(2, "Adventure", "Приключение", "Life is an adventure."),
-    // ...
-)
 ```
 
 ## 🔄 Состояние приложения
