@@ -1,6 +1,4 @@
 # WordMatch 📱
-
-
 [![Android](https://img.shields.io/badge/Platform-Android-green.svg)](https://developer.android.com/)
 [![Kotlin](https://img.shields.io/badge/Language-Kotlin-purple.svg)](https://kotlinlang.org/)
 [![Jetpack Compose](https://img.shields.io/badge/UI-Jetpack%20Compose-blue.svg)](https://developer.android.com/jetpack/compose)
@@ -12,8 +10,8 @@
 ## 👨‍💻 Автор
 
 **Elmigerum, me**
-- GitHub: [@danissimoae](https://github.com/danissimoae)
 - GitHub: [@elmigerum](https://github.com/elmigerum)
+- GitHub: [@danissimoae](https://github.com/danissimoae)
 
 <img width="881" height="600" alt="image" src="https://github.com/user-attachments/assets/c7842fc3-8816-4e47-9da5-ae9519f56941" />
 <img width="729" height="778" alt="image" src="https://github.com/user-attachments/assets/c3fa987a-6f72-497f-ab17-8e504baff53a" />
